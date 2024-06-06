@@ -1,0 +1,35 @@
+Design
+1. Generate post details
+	- image
+	- caption
+	- comments?
+	- other instagram stuff
+2. Uploading to instagram automatically
+	- IG API
+		* https://rapidapi.com/blog/instagram-api-python/
+3. Upload every few period
+	- once a day or a few days
+		* could be random
+	- AWS lambda or IG Graph API for automation
+4. repeat
+
+
+Fetching API
+https://www.youtube.com/watch?v=bKCORrHbutQ 
+
+Skolo
+https://www.youtube.com/watch?v=Q5kw7vGLqgs
+https://www.youtube.com/watch?v=qI1s_DrzA-o (user token: 47:42)
+
+Getting token
+https://www.youtube.com/watch?v=ZrgKHRDrVjE
+
+https://developers.facebook.com/docs/graph-api/get-started
+
+memoryleak296@gmail.com
+PSWD: i_forg0r
+
+{
+    id": "122099892638323867",
+    "name": "Mem Leak"
+}

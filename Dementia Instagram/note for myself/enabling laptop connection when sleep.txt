@@ -1,0 +1,18 @@
+Refer to this link to disabling automatic internet disconnection when laptop is turned off:
+https://www.reddit.com/r/HomeNetworking/comments/118315i/windows_11_pc_loses_internet_connection_every/
+
+Windows:
+
+Power saving issue and you need to disable power management on your network adaptor(s):
+1. Start Menu
+2. Search for and open 'Control Panel'
+3. Press "Enter"
+4. Switch to Icon view (Small or Large, doesn't matter.)
+5. Network and Sharing Center
+6. Change adapter settings
+7. Right-click the relevant adaptor
+8. Properties (Accept UAC prompt if required)
+9. Configure
+10. Power Management
+11. Tick/Untick the 'Allow the computer to turn off this device to save power'.
+12. Click 'OK'

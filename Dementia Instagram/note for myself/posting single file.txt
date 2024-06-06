@@ -1,0 +1,21 @@
+Step 1: creating post container
+
+payload_1 = {
+	img_url: {image-url},
+	caption: {caption},
+	access_token: {long-lived-access-token}
+}
+
+POST https://graph.facebook.com/v20.0/{INSTAGRAM_page_id}/media?{payload_1}
+--> returns creation_id
+
+
+Step 2: send post request
+
+payload_2 = {
+	creation_id: {creation-id},
+	access_token: {long-lived-access-token}
+}
+
+POST https://graph.facebook.com/v20.0/{INSTAGRAM_page_id}/media_publish
+--> returns page id if successful

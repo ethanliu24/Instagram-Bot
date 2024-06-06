@@ -1,0 +1,47 @@
+Design
+1. Generate post details
+	- image
+		- host at https://imgbb.com/upload
+	- caption
+		- randomly choose from txt file
+2. Uploading to instagram automatically
+	- IG API
+		- https://developers.facebook.com/docs/instagram-api
+3. Upload every few period
+	- once a day or a few days
+		* could be random
+	- AWS lambda or schedule library for automation
+4. repeat
+
+
+SAVE THIS
+Start Menu
+
+Search for and open 'Control Panel'
+
+Press "Enter"
+
+Switch to Icon view (Small or Large, doesn't matter.)
+
+Network and Sharing Center
+
+Change adapter settings
+
+Right-click the relevant adaptor
+
+Properties (Accept UAC prompt if required)
+
+Configure
+
+Power Management
+
+Untick the 'Allow the computer to turn off this device to save power'.
+
+Click 'OK'
+
+
+
+
+
+
+

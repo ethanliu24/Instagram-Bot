@@ -1,0 +1,14 @@
+Get short access token first
+
+payload = {
+	grant_type: fb_exchange_token,
+	client_id: {app-id},
+	client_secret: {app-secret (in setting, basic)},
+	fb_exchange_token: {short-lived-token}
+	}
+
+GET https://graph.facebook.com/oauth/access_token?{payload}
+--> returns long access user token
+
+GET https://graph.facebook.com/310368378828312?fields=access_token&access_token={long-access-token}
+--> returns long access page token. put this in config file.
